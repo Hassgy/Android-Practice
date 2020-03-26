@@ -54,7 +54,7 @@ public class SettingActivity extends TitleContentActivity {
     }
     /* 初始化Activity */
     private void initActivity(Bundle savedInstanceState) {
-        titleTV.setText("设置"); 
+        titleTV.setText("设置");
     }
 }
 
