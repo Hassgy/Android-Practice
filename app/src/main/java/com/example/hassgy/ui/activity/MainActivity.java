@@ -17,6 +17,8 @@ import com.ulfy.android.ui_injection.Layout;
 import com.ulfy.android.ui_injection.ViewById;
 import com.ulfy.android.ui_injection.ViewClick;
 
+import java.time.Instant;
+
 @Layout(id = R.layout.activity_main)
 public class MainActivity extends BaseActivity {
 
@@ -26,7 +28,8 @@ public class MainActivity extends BaseActivity {
     }
 
     @ViewClick(ids = R.id.detailPageBtn) private void gotoDetailPage(View view) {
-        ActivityUtils.startActivity(SettingActivity.class);
+        Intent intent=new Intent(MainActivity.this,SettingActivity.class);
+        startActivity(intent);
 
     }
 
