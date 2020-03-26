@@ -27,7 +27,7 @@ public class MainActivity extends BaseActivity {
 
     @ViewClick(ids = R.id.detailPageBtn) private void gotoDetailPage(View view) {
         ActivityUtils.startActivity(SettingActivity.class);
-        finish();
+
     }
 
     @Override public void onBackPressed() {
