@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity {
     }
 
     @ViewClick(ids = R.id.detailPageBtn) private void gotoDetailPage(View view) {
-        ActivityUtils.startActivity(SplashActivity.class);
+        ActivityUtils.startActivity(SettingActivity.class);
         finish();
     }
 
