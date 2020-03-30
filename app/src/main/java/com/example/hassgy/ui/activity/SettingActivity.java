@@ -13,7 +13,6 @@ import com.example.hassgy.ui.base.TitleContentActivity;
 import com.example.hassgy.ui.view.MovieDetailsView;
 import com.ulfy.android.ui_injection.Layout;
 
-
 public class SettingActivity extends TitleContentActivity {
     private MovieDetailsVM vm;
     private MovieDetailsView view;

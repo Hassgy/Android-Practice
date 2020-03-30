@@ -6,9 +6,71 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <ListView
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </ListView>
+        android:layout_height="wrap_content"
+        android:text="启动页"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/startPageBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引导页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/guidePageBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标签页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tagPageBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详情页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:id="@+id/detailPageBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:id="@+id/listPageBtn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:id="@+id/searchPageBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="升级页"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:id="@+id/upgradePageBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网页加载"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:id="@+id/webViewLoadPageBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件下载"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:id="@+id/fileDownloadPageBtn"/>
+
 
 </FrameLayout>
