@@ -25,9 +25,6 @@ public class MainActivity extends BaseActivity {
 //        super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
 //    }
-    public static void startActivity() {
-        ActivityUtils.startActivity(MainActivity.class);
-    }
 
     /**
      * click: startPageBtn, guidePageBtn, tagPageBtn, detailPageBtn, listPageBtn, searchPageBtn, upgradePageBtn, webViewLoadPageBtn, fileDownloadPageBtn
