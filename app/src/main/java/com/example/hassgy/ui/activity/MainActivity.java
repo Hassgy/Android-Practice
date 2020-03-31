@@ -52,6 +52,7 @@ public class MainActivity extends BaseActivity {
                 startActivity(new Intent(getContext(), ContentSearchActivity.class));
                 break;
             case R.id.upgradePageBtn:
+                startActivity(new Intent(getContext(), UpgradeCheckActivity.class));
                 break;
             case R.id.webViewLoadPageBtn:
                 break;
