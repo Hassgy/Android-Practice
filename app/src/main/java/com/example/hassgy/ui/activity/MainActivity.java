@@ -34,25 +34,25 @@ public class MainActivity extends BaseActivity {
     private void clickGroup(View v) {
         switch (v.getId()) {
             case R.id.startPageBtn:
-                startActivity(new Intent(getContext(), SplashActivity.class));
+                SplashActivity.startActivity();
                 break;
             case R.id.guidePageBtn:
 //                startActivity(new Intent(getContext(), GuideActivity.class));
                 break;
             case R.id.tagPageBtn:
-//                startActivity(new Intent(getContext(), TagPagerLinkageActivity.class));
+                TabPagerLinkageActivity.startActivity();
                 break;
             case R.id.detailPageBtn:
-                startActivity(new Intent(getContext(), SettingActivity.class));
+                SettingActivity.startActivity();
                 break;
             case R.id.listPageBtn:
-//                startActivity(new Intent(getContext(), .class));
+                NoticeActivity.startActivity();
                 break;
             case R.id.searchPageBtn:
-                startActivity(new Intent(getContext(), ContentSearchActivity.class));
+                ContentSearchActivity.startActivity();
                 break;
             case R.id.upgradePageBtn:
-                startActivity(new Intent(getContext(), UpgradeCheckActivity.class));
+                UpgradeCheckActivity.startActivity();
                 break;
             case R.id.webViewLoadPageBtn:
                 break;
