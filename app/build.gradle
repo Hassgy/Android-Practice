@@ -110,6 +110,31 @@ dependencies {
 //    implementation externalSmartRefreshLayout           // 下拉刷新
 //    implementation externalSmartRefreshHeader           // 下拉刷新样式
 
+    /*
+    三方库
+     */
+    implementation externalGifDrawable                          // GIF图片加载控件
+    implementation externalPtrLoadMore                          // 下拉刷新（已过时不建议）
+    implementation externalSmartRefreshLayout                   // 下拉刷新
+    implementation externalSmartRefreshHeader                   // 下拉刷新样式
+    implementation externalMagicIndicator                       // ViewPager指示器
+    debugImplementation externalDebugLeakcanary                 // 内存溢出分析
+    releaseImplementation externalReleaseLeakcanary             // 内存溢出分析
+    implementation externalOKHTTP                               // 网络访问库
+    implementation externalFastJson                             // JSON解析库
+    implementation externalJodaTime                             // 时间处理库
+    implementation externalGuava                                // 基础工具包
+    implementation externalAndroidMultiDex                      // 分包打包库
+    implementation externalGlide                                // Glide图片加载
+    implementation externalViewAnimation                        // 动画操作框架
+    implementation externalZXing                                // 二维码扫描
+    implementation externalXBanner                              // 轮播图
+    implementation externalStickListHeader                      // 分组列表头
+    implementation externalQuickSlideBar                        // 列表索引列表
+    implementation externalGifDrawable                          // GIF图片加载控件
+    implementation externalAppBarLayoutBehavior                 // AppBarLayout回弹问题
+    implementation 'com.github.dueeeke.dkplayer:dkplayer-java:3.0.2'        // DK视频播放器
+
     implementation externalOKHTTP                               // 网络访问库
     implementation externalFastJson                             // JSON解析库
 

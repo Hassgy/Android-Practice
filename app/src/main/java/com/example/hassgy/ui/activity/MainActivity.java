@@ -1,22 +1,12 @@
 package com.example.hassgy.ui.activity;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.View;
-import android.widget.Button;
 
 import com.example.hassgy.R;
 import com.example.hassgy.ui.base.BaseActivity;
-import com.ulfy.android.system.ActivityUtils;
 import com.ulfy.android.system.AppUtils;
 import com.ulfy.android.ui_injection.Layout;
-import com.ulfy.android.ui_injection.ViewById;
 import com.ulfy.android.ui_injection.ViewClick;
-
-import java.time.Instant;
 
 @Layout(id = R.layout.activity_main)
 public class MainActivity extends BaseActivity {
@@ -37,7 +27,7 @@ public class MainActivity extends BaseActivity {
                 SplashActivity.startActivity();
                 break;
             case R.id.guidePageBtn:
-//                startActivity(new Intent(getContext(), GuideActivity.class));
+                GuideActivity.startActivity();
                 break;
             case R.id.tagPageBtn:
                 TabPagerLinkageActivity.startActivity();
@@ -55,6 +45,7 @@ public class MainActivity extends BaseActivity {
                 UpgradeCheckActivity.startActivity();
                 break;
             case R.id.webViewLoadPageBtn:
+                WebActivity.startActivity();
                 break;
             case R.id.fileDownloadPageBtn:
                 break;

@@ -4,16 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.hassgy.R;
 import com.example.hassgy.application.vm.SplashVM;
 import com.example.hassgy.domain.cache.AppCache;
+import com.example.hassgy.ui.base.BaseActivity;
 import com.ulfy.android.image.ImageUtils;
 import com.ulfy.android.system.ActivityUtils;
 import com.ulfy.android.system.AppUtils;
@@ -22,11 +20,7 @@ import com.ulfy.android.task_extension.UiTimer;
 import com.ulfy.android.task_transponder.SilentProcesser;
 import com.ulfy.android.ui_injection.Layout;
 import com.ulfy.android.ui_injection.ViewById;
-import com.example.hassgy.R;
-import com.example.hassgy.ui.base.BaseActivity;
 import com.ulfy.android.ui_injection.ViewClick;
-import com.ulfy.android.utils.StatusBarUtils;
-import com.ulfy.android.utils.UiUtils;
 
 @Layout(id = R.layout.activity_splash)
 public class SplashActivity extends BaseActivity {
@@ -128,7 +122,8 @@ public class SplashActivity extends BaseActivity {
      * 前往引导页
      */
     private void gotoGuideActivity() {
-        UiUtils.show("打开了引导页");     // 替换为具体的启动页实现
+//        UiUtils.show("打开了引导页");     // 替换为具体的启动页实现
+        GuideActivity.startActivity();
         finish();
     }
 

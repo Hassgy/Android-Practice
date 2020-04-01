@@ -24,11 +24,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.activity.GuideActivity"></activity>
         <activity android:name=".ui.activity.SettingActivity"></activity>
         <activity android:name=".ui.activity.TabPagerLinkageActivity"></activity>
         <activity android:name=".ui.activity.ContentSearchActivity"></activity>
         <activity android:name=".ui.activity.NoticeActivity"></activity>
         <activity android:name=".ui.activity.UpgradeCheckActivity"></activity>
+        <activity android:name=".ui.activity.WebActivity"></activity>
     </application>
 
 </manifest>
