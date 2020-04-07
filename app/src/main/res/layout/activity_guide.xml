@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isAutoPlay="false"
+        app:isShowIndicatorOnlyOne="true"
+        app:pageChangeDuration="800"
+        app:pointNormal="@drawable/shape_point_noraml"
+        app:pointSelect="@drawable/shape_point_selected"
+        app:pointsPosition="CENTER" />
+
+    <Button
+        android:id="@+id/btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/shape_mine_text"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="进入app"
+        android:textColor="#AB304F"
+        android:visibility="gone" />
+
+</FrameLayout>
